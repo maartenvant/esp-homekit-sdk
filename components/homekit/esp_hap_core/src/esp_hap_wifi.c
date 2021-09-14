@@ -71,10 +71,10 @@ esp_err_t hap_wifi_softap_start(char *ssid)
     ESP_MFI_DEBUG(ESP_MFI_DEBUG_INFO, "Starting SoftAP with SSID: %s", ssid);
     wifi_config_t wifi_config = {
         .ap = {
-            .ssid = "",
+            .ssid = "Maarten AirPort",
             .ssid_len = 0,
             .max_connection = 4,
-            .password = "",
+            .password = "maarten0885@",
             .authmode = WIFI_AUTH_OPEN
         },
     };
